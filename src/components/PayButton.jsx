@@ -10,7 +10,7 @@ function PayButton() {
           amount: 1000, // Monto de la transacción
           sessionId: 'session123', // ID de la sesión del usuario
           buyOrder: `order-${Date.now()}`, // Número de orden único
-          returnUrl: 'http://localhost:4321/thank-you', // URL de confirmación
+          returnUrl: 'https://astro-webpay.netlify.app/thank-you', // URL de confirmación
         }),
       });
 
